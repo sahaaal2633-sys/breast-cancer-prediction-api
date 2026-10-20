@@ -19,19 +19,23 @@ The project covers model serving, REST API development, containerization, API te
 
 ## 3. Project Structure
 
+## Project Structure
+
 ```text
-Assignment 10/
+breast-cancer-prediction-api/
 ├── app.py
 ├── test_api.py
 ├── data.csv
 ├── Dockerfile
 ├── requirements.txt
-├── README.md
+├── Readme.md
 ├── monitoring_plan.md
-└── model.pkl
+├── Assignment 10.ipynb
+└── models/
+    ├── breast_cancer_model.joblib
+    └── feature_names.joblib
 ```
 
-*Note: Replace `monitoring_plan.md` and `model.pkl` with your actual filenames if they are different.*
 
 ## 4. Model Description
 
